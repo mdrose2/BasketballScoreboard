@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    background-image: url("basketball.jpg");
+    background-size: auto; 
+    background-repeat: no-repeat;
+}
+@font-face {
+        font-family: CursedTimer;
+        src: url(/CursedTimerUlil-Aznm.ttf);
+}
+
+#scoreboard {
+    border: .05rem solid black ;
+    max-width: 95%;
+    margin: auto;
+    margin-top: 1rem;
+    border-radius: 25px;
+    background-color: #1B244A;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.scorebuttons {
+    text-align: center;
+    margin: auto;
+}
+
+button {
+    color: #9AABD8;
+    border: .05rem solid #9AABD8;
+    background-color: #1B244A;
+    margin-top: 5%;
+    padding: 4%;
+    border-radius: 10px;
+}
+
+button.score {
+    font-family: CursedTimer;
+    font-size: large;
+    width: 3rem;
+    align-items: center;
+    display: 
+}
+
+#reset {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+p {
+    font-family: CursedTimer;
+    color: #F94F6D;
+    text-align: center;
+    background-color: black;
+    margin: auto;
+    padding: 1rem 3rem;
+    font-size: 4rem;
+}
+
+h3 {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    font-size: 2em;
+    
+}
+
