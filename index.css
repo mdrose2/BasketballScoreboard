@@ -11,11 +11,12 @@ body {
 
 #scoreboard {
     border: .05rem solid black ;
-    max-width: 95%;
+    max-width: 80%;
     margin: auto;
     margin-top: 1rem;
     border-radius: 25px;
     background-color: #1B244A;
+    padding: 0%;
 }
 
 .container {
@@ -42,7 +43,6 @@ button.score {
     font-size: large;
     width: 3rem;
     align-items: center;
-    display: 
 }
 
 #reset {
