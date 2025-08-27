@@ -1,7 +1,7 @@
 let homeDisplay = document.getElementById("home-score")
-let guestDisplay = document.getElementById("guest-score")
+let awayDisplay = document.getElementById("away-score")
 let homeScore = 0
-let guestScore = 0
+let awayScore = 0
 
 function home1() {
     homeScore +=1
@@ -18,24 +18,24 @@ function home3() {
     homeDisplay.textContent = homeScore
 }
 
-function guest1() {
-    guestScore +=1
-    guestDisplay.textContent = guestScore
+function away1() {
+    awayScore +=1
+    awayDisplay.textContent = awayScore
 }
 
-function guest2() {
-    guestScore +=2
-    guestDisplay.textContent = guestScore
+function away2() {
+    awayScore +=2
+    awayDisplay.textContent = awayScore
 }
 
-function guest3() {
-    guestScore +=3
-    guestDisplay.textContent = guestScore
+function away3() {
+    awayScore +=3
+    awayDisplay.textContent = awayScore
 }
 
 function reset() {
     homeScore =0
     homeDisplay.textContent = homeScore
-    guestScore =0
-    guestDisplay.textContent = guestScore
+    awayScore =0
+    awayDisplay.textContent = awayScore
 }
